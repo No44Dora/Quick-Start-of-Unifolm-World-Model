@@ -1,6 +1,6 @@
 ## Installation
 1. 在目录下建立一个名为ckpts的文件夹，下载huggingface中的模型文件到该文件夹。
-2. 配置相关环境（注：最好采用较快的求解器）
+2. 配置相关环境（注：最好采用较快的solver）
 ```
 conda create -n unifolm-wma python==3.10.18
 conda activate unifolm-wma
