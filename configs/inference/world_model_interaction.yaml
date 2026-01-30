@@ -222,7 +222,7 @@ data:
     test:
       target: unifolm_wma.data.wma_data.WMAData
       params:
-        data_dir: '/home/jovyan/ASC2026_3/unifolm-world-model-action/unitree_g1_pack_camera/case1/world_model_interaction_prompts'
+        data_dir: 'absolute path to/unitree_g1_pack_camera/case1/world_model_interaction_prompts'
         video_length: ${model.params.wma_config.params.temporal_length}
         frame_stride: 2
         load_raw_resolution: True
